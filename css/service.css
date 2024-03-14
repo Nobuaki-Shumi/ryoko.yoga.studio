@@ -1,0 +1,67 @@
+.service-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.service-introduction {
+  margin: 200px 0;
+}
+.service-introduction .service-list {
+  width: 100%;
+  height: 500px;
+  list-style: none;
+  margin: 150px auto;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+}
+.service-introduction .service-list a {
+  color: #fff;
+  font-size: 110px;
+  font-weight: 900;
+  text-align: center;
+  display: block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 0.09em;
+}
+
+.web {
+  background-image: url(../image/main.jpg);
+}
+
+.marketing {
+  background-image: url(../image/frog-1109792_1280.jpg);
+}
+
+.app {
+  background-image: url(../image/app2.jpg);
+}
+
+/* tb */
+@media (max-width: 1024px) {
+  .service-introduction .service-list {
+    width: 83%;
+    height: 370px;
+  }
+  .service-introduction .service-list a {
+    font-size: 90;
+  }
+}
+/* sp */
+@media (max-width: 599px) {
+  .service-introduction {
+    margin: 100px 0;
+  }
+  .service-introduction .service-list {
+    width: 80%;
+    height: 210px;
+    margin: 50px auto;
+  }
+  .service-introduction .service-list a {
+    font-size: 40px;
+  }
+}
+/*# sourceMappingURL=service.css.map */

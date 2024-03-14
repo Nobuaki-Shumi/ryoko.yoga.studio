@@ -1,0 +1,39 @@
+// css
+@import url(../css/reset.css);
+@import url(../css/slick-theme.css);
+@import url(../css/slick.css);
+
+
+// google fonts
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap');
+
+// basic
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+    &:hover {
+        color: #0066cc;
+    }
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+}
+
+h3 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 45px;
+    font-weight: bold;
+}

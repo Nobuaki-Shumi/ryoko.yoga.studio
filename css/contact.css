@@ -1,0 +1,71 @@
+@import '../sass/common.css';
+.contact {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h4 {
+  font-size: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+form label {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+form input {
+  width: 400px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 6px;
+  font-size: 16px;
+}
+form textarea {
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  font-size: 16px;
+}
+form .submit {
+  background-color: #F1F1F1;
+  width: 100px;
+  height: 40px;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+}
+
+/* tb */
+/* sp */
+@media (max-width: 599px) {
+  .contact {
+    width: 100%;
+    padding: 0 15px;
+    margin-top: 80px;
+  }
+  .contact h4 {
+    font-size: 26px;
+  }
+  form label {
+    font-size: 16px;
+  }
+  form input,
+form textarea {
+    width: 100%;
+  }
+  form .submit {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=contact.css.map */
